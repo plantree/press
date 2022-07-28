@@ -1,7 +1,6 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
-const { tocPlugin } = require('@vuepress/plugin-toc')
 const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
 
 
@@ -87,8 +86,6 @@ module.exports = {
             maxSuggestions: 5
         }),
         nprogressPlugin(),
-        tocPlugin({
-        }),
         activeHeaderLinksPlugin({})
     ]
 }
