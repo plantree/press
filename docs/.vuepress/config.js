@@ -74,7 +74,13 @@ module.exports = {
                     {
                         text: '02 日常思考',
                         link: '/soft/daily/',
-                        children: []
+                        children: [
+                            {
+                                text: '苏州漫行记',
+                                link: '/soft/daily/苏州漫行记.md',
+                                children: []
+                            }
+                        ]
                     }
                 ]
             },
