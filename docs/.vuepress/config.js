@@ -79,6 +79,22 @@ module.exports = {
                                 text: '苏州漫行记',
                                 link: '/soft/daily/苏州漫行记.md',
                                 children: []
+                            },
+                            {
+                                text: '东方健康膳食模式',
+                                link: '/soft/daily/东方健康膳食模式.md',
+                                children: []
+                            }
+                        ]
+                    },
+                    {
+                        text: '03 职场',
+                        link: '/soft/workplace/',
+                        children: [
+                            {
+                                text: '微软内推',
+                                link: '/soft/workplace/微软内推.md',
+                                children: []
                             }
                         ]
                     }
