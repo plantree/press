@@ -3,8 +3,6 @@ const { searchPlugin } = require('@vuepress/plugin-search')
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
 const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
 
-
-
 module.exports = {
     title: 'Plantree',
     description: 'A hub to archive thinkings',
