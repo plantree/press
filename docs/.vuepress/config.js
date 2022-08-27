@@ -84,6 +84,11 @@ module.exports = {
                                 text: '东方健康膳食模式',
                                 link: '/soft/daily/东方健康膳食模式.md',
                                 children: []
+                            },
+                            {
+                                text: '跟着孟岩学编程',
+                                link: '/soft/daily/跟着孟岩学编程.md',
+                                children: []
                             }
                         ]
                     },
