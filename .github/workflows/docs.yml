@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         # run: yarn --frozen-lockfile
-        run: yarn install && yarn add vuepress -D
+        run: npm install && yarn add vuepress -D
 
       # run build script
       - name: Build VuePress site
