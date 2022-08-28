@@ -1,7 +1,5 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { searchPlugin } = require('@vuepress/plugin-search')
-const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
-const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
 
 module.exports = {
     title: 'Plantree',
@@ -110,7 +108,5 @@ module.exports = {
         searchPlugin({
             maxSuggestions: 5
         }),
-        nprogressPlugin(),
-        activeHeaderLinksPlugin({})
     ]
 }
