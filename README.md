@@ -1,6 +1,6 @@
 # press
 
-[toc]
+[[toc]]
 
 #### header
 A static website driven by VuePress
