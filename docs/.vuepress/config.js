@@ -1,5 +1,6 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { searchPlugin } = require('@vuepress/plugin-search')
+const { giscusPlugin } = require('vuepress-plugin-giscus')
 
 module.exports = {
     title: 'Plantree',
@@ -108,5 +109,11 @@ module.exports = {
         searchPlugin({
             maxSuggestions: 5
         }),
+        giscusPlugin({
+            repo: 'plantree/press-comment',
+            repoId: 'R_kgDOIDNWUg',
+            category: 'General',
+            categoryId: 'DIC_kwDOIDNWUs4CRlY7' 
+        })
     ]
 }

@@ -15,6 +15,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "vuepress-plugin-giscus": "^2.0.0-alpha.26",
     "yarn": "^1.22.19"
   }
 }
