@@ -1,6 +1,7 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { giscusPlugin } = require('vuepress-plugin-giscus')
+const { path } = require('@vuepress/utils')
 
 module.exports = {
     title: 'Plantree',
@@ -115,5 +116,8 @@ module.exports = {
             category: 'General',
             categoryId: 'DIC_kwDOIDNWUs4CRlY7' 
         })
-    ]
+    ],
+    alias: {
+        '@theme/Page.vue': path.resolve(__dirname, './components/Page.vue'),
+      },
 }
